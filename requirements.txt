@@ -1,0 +1,20 @@
+# ---------------------------------------------------------------------------
+# Python dependencies (tested on Python 3.11, Windows 11 and Linux).
+# Install inside the project's virtual environment:
+#     python -m pip install -r requirements.txt
+# ---------------------------------------------------------------------------
+
+# Core ML: our own model (TensorFlow) + supporting hand tracking (MediaPipe)
+tensorflow==2.17.*
+mediapipe==0.10.14            # 0.10.14 still has the mp.solutions.hands API used here
+opencv-python>=4.10,<4.12
+numpy>=1.26,<2.0              # TensorFlow 2.17 / MediaPipe 0.10.14 need NumPy 1.x
+matplotlib>=3.8               # plots in the FSboard data code
+
+# Local web backend for the browser interface
+fastapi>=0.110
+uvicorn[standard]>=0.29       # includes WebSocket support
+
+# OPTIONAL: offline speech-to-text for "Speech to ASL fingerspelling".
+# Also needs the model files: python scripts/app/download_vosk_model.py
+vosk>=0.3.45

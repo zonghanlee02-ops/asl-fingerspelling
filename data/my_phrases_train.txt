@@ -1,0 +1,53 @@
+# Phase 2B training phrases: short phrases with spaces, so the model learns how YOU
+# mark the gap between words. Sign them the way you naturally would, the same way each time.
+# One phrase per line: A-Z, single spaces between words. Lines starting with # are ignored.
+# Every 7th line is held back for validation. Never use a word from my_words_test.txt here.
+I LOVE YOU
+THANK YOU
+GOOD MORNING
+GOOD NIGHT
+MY NAME IS
+SEE YOU
+HOW ARE YOU
+NICE TO MEET YOU
+PLEASE HELP ME
+I AM HAPPY
+I AM HUNGRY
+I AM TIRED
+I AM BUSY
+YES PLEASE
+NO THANKS
+EXCUSE ME
+WHAT TIME
+WHERE IS IT
+COME HERE
+GO HOME
+LET US GO
+WAIT FOR ME
+CALL ME
+TEXT ME
+I LIKE IT
+I DO NOT KNOW
+ME TOO
+GOOD JOB
+WELL DONE
+BIG CITY
+HOT COFFEE
+COLD WATER
+GREEN TREE
+BLUE SKY
+BLACK CAT
+WHITE SNOW
+OPEN THE DOOR
+READ A BOOK
+DRINK WATER
+EAT FOOD
+NEXT WEEK
+LAST YEAR
+NEW JOB
+OLD FRIEND
+HAPPY BIRTHDAY
+SEE YOU SOON
+TAKE CARE
+SLOW DOWN
+HURRY UP

@@ -1,0 +1,19 @@
+# Extra training words that start with I (19 Nov 2026): no other training word starts with I, and the model
+# missed the I at the start of I LOVE YOU. "I" alone is first so it is never held back for validation.
+# No double letters here, so that problem does not mix in. The decoder adds the space after I.
+# One word per line, A-Z only. Lines starting with # are ignored. Every 7th word is validation.
+# Never use a word from my_words_test.txt or another training list here.
+I
+IF
+IN
+IS
+IT
+ICE
+IDEA
+INK
+IRON
+ITEM
+INCH
+INTO
+ICON
+IVY

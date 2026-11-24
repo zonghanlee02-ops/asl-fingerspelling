@@ -1,0 +1,18 @@
+# Phase 2B test phrases: recorded by you, NEVER used for training.
+# They score spaces and phrases. They use common words, some of which also appear in training
+# lists, so they test phrases and spaces rather than unseen words (my_words_test.txt does that).
+# One phrase per line: A-Z, single spaces between words. Lines starting with # are ignored.
+WHAT IS YOUR NAME
+GOOD AFTERNOON
+SEE YOU LATER
+I AM SORRY
+NICE DAY
+HAVE FUN
+BE CAREFUL
+GOOD LUCK
+MY FRIEND
+WHERE ARE YOU
+I NEED HELP
+SAFE TRIP
+LONG TIME
+SWEET DREAMS

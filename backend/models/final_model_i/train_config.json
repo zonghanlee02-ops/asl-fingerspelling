@@ -1,0 +1,28 @@
+{
+  "epochs": 40,
+  "batch_size": 32,
+  "learning_rate": 0.0003,
+  "clip_norm": 1.0,
+  "seed": 42,
+  "augment": {
+    "stretch": [
+      0.5,
+      3.5
+    ],
+    "rotate_deg": 10.0,
+    "scale": [
+      0.9,
+      1.1
+    ],
+    "aspect": [
+      0.9,
+      1.1
+    ],
+    "wrist_shift": 0.05,
+    "noise": 0.01,
+    "drop_frame": 0.03
+  },
+  "patience": 20,
+  "show_examples": 5,
+  "log_every": 1
+}

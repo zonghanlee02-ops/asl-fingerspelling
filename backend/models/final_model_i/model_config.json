@@ -1,0 +1,16 @@
+{
+  "architecture": "causal-tcn-ctc-v1",
+  "num_features": 68,
+  "num_classes": 28,
+  "channels": 64,
+  "kernel_size": 3,
+  "dilations": [
+    1,
+    2,
+    4,
+    8,
+    16
+  ],
+  "convs_per_block": 2,
+  "dropout": 0.1
+}

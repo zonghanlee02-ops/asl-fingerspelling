@@ -1,0 +1,4 @@
+# Extra packages for running the automated tests:  python -m pytest
+-r requirements.txt
+pytest>=8
+httpx>=0.27                   # used by FastAPI's TestClient

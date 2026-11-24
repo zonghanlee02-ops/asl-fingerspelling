@@ -1,0 +1,25 @@
+# Phase 2B extra training words with double letters (BOOK, LETTER), the main remaining error.
+# Sign the double clearly: a small bounce or slide for the second letter.
+# One word per line, A-Z only. Lines starting with # are ignored. Every 7th word is validation.
+# Never use a word from my_words_test.txt or another training list here.
+BOOK
+LETTER
+MISS
+BALLOON
+COOK
+FEET
+HILL
+BOTTLE
+DINNER
+KITTEN
+RABBIT
+PEPPER
+CARROT
+MIRROR
+COMMON
+PILLOW
+ARROW
+SPOON
+TOOTH
+FUNNY
+EGG

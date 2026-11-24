@@ -1,0 +1,46 @@
+# NOTE: git does not allow comments at the end of a pattern line,
+# so every comment here is on its own line.
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+.pytest_cache/
+
+# Large or personal data - NEVER published automatically
+data/asl_alphabet_train/
+data/asl_alphabet_test/
+data/*.npz
+data/*.csv
+# your recordings and packs (personal)
+backend/storage/
+# models: only final_model_i (the one the app uses) is published; the older experiment models
+# and the downloaded speech model (re-download with scripts/app/download_vosk_model.py) stay local
+backend/models/*/
+!backend/models/final_model_i/
+# working copies that are not part of the program
+data/reference_poses_kaggle_backup.json
+docs/PROJECT_DOCUMENTATION.docx
+notebooks/asl_seq_tcn_ctc_colab.ipynb
+notebooks/fsboard_tcn_ctc_colab.before_resume.ipynb
+notebooks/resume_paste_in.md
+
+# Claude Code settings (local tool configuration)
+.claude/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Sequence model (experimental): Colab code zip, local recordings, Colab-only files
+dist/
+kaggle.json
+# FSboard exports from Colab (derived from the dataset)
+data/fsboard*/

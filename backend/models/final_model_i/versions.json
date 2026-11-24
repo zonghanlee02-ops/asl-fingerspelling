@@ -1,0 +1,12 @@
+{
+  "python": "3.13.16",
+  "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "tensorflow": "2.21.0",
+  "keras": "3.13.2",
+  "numpy": "2.4.6",
+  "gpus": [
+    "/physical_device:GPU:0"
+  ],
+  "pandas": "2.2.3",
+  "pyarrow": "23.0.1"
+}

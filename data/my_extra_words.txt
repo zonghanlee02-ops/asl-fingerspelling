@@ -1,0 +1,5 @@
+# Your own words for word correction (Phase 3): names, places, anything the
+# 30,000-word list in words_en.txt does not have. One word per line, letters A-Z only.
+# Words here are treated as common words, so the corrector can correct TO them
+# and never changes them when the model reads them right.
+# Lines starting with # are ignored.

@@ -1,0 +1,44 @@
+# Phase 2A test words: recorded by you, NEVER used for training.
+# They give an honest score on words the model has not learned from you.
+# One word per line, A-Z only. Lines starting with # are ignored.
+# Never put a word from my_words_train.txt here.
+MOTHER
+FATHER
+SISTER
+BROTHER
+TEACHER
+DOCTOR
+BREAD
+CHEESE
+ORANGE
+BANANA
+LEMON
+SUGAR
+CHAIR
+TABLE
+WINDOW
+GARDEN
+RIVER
+BEACH
+ISLAND
+PLANET
+MUSIC
+DANCE
+GUITAR
+PIANO
+SOCCER
+TENNIS
+JELLY
+JAZZ
+ZEBRA
+OXYGEN
+QUESTION
+KNIFE
+VALLEY
+WEATHER
+SPRING
+AUTUMN
+FLOWER
+PURPLE
+SILVER
+BUTTER
