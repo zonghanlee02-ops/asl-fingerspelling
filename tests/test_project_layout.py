@@ -16,6 +16,6 @@ def test_location_constants_point_at_real_folders():
 
 def test_private_and_generated_folders_are_git_ignored():
     ignored = (ROOT / ".gitignore").read_text()
-    for pattern in ("backend/storage/", "backend/models/vosk/", "backend/models/versions/",
-                    "frontend/node_modules/", "frontend/dist/", "data/asl_alphabet_train/"):
-        assert pattern in ignored
+    for pattern in ("backend/storage/", "backend/models/*/", "!backend/models/final_model_i/",
+                    "frontend/node_modules/", "frontend/dist/", "data/asl_alphabet_train/", ".claude/"):
+        assert pattern in ignored.splitlines()
